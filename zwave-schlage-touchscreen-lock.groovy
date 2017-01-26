@@ -1330,7 +1330,6 @@ def setPinLength(newValue)
 
 def setAlarmSensitivity(newValue)
 {
-	log.debug "Trying to set Alarm Sensitivity to $newValue"
 	def cmds = null
 	if (newValue != null)
 	{
